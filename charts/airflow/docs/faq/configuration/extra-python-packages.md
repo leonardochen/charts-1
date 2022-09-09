@@ -86,7 +86,7 @@ The `worker.extraPipPackages` value installs pip packages on the Airflow Worker 
 For example, to install `torch` on the Worker Pods only:
 
 ```yaml
-worker:
+workers:
   extraPipPackages:
     - "torch==1.8.0"
 ```
